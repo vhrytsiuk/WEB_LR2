@@ -1,0 +1,171 @@
+.btn-custom {
+    background-color: #5447ff; /* Здесь используйте желаемый цвет */
+    color: #ffffff; /* Здесь используйте цвет текста, который хорошо виден на фоне кнопки */
+}
+
+.bg-light {
+    background-color: #9fc7db; 
+}
+
+.nav-link{
+    font-size: 1.1em;
+}
+
+nav{
+    background-color: black;
+}
+
+.navbar li{
+    margin-right: 15px;
+}
+
+.row{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.container-fluid{
+    margin:0 !important;
+    padding:0 !important;
+}
+
+.bg-image{
+    background-image: url('https://img.freepik.com/premium-vector/seamless-pattern-abstract-background-with-futuristic-style-use-business-cover-banner_7505-1820.jpg?w=1480');
+}
+
+.logo{
+    height: 30px;
+}
+
+.forma{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    width: 350px;
+    background-color: rgb(243, 243, 243);
+    border-radius: 25px;
+}
+
+.carousel-inner{
+    position: relative;
+}
+
+.carousel-inner h3{
+    color: black;
+    font-size: 3.5vw;
+}
+
+.carousel-inner h1{
+    color: black;
+    font-size: 4.5vw;
+}
+
+.carousel-inner img{
+    transform: translateY(-3%);
+    width: 100%;
+    margin-top: 3%;
+}
+
+.carousel-caption{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-100%);
+}
+
+.carousel-indicators{
+    position: absolute;
+    height: 50px;
+    top: 92%;
+}
+
+.carousel{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.opyt{
+    background-color: rgb(231, 231, 231);
+    margin-top: 10px;
+    text-align: center;
+    padding: 20px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black
+}
+
+.rozdil{
+    width: 85%;
+}
+
+.btn{
+    margin-top: 15px;
+}
+
+.quiz p{
+    font-weight: bold;
+}
+
+@-webkit-keyframes swing {
+    15% {
+        -webkit-transform: translateY(5px);
+        transform: translateY(5px);
+    }
+    30% {
+        -webkit-transform: translateY(-5px);
+        transform: translateY(-5px);
+    }
+    50% {
+        -webkit-transform: translateY(3px);
+        transform: translateY(3px);
+    }
+    65% {
+        -webkit-transform: translateY(-3px);
+        transform: translateY(-3px);
+    }
+    80% {
+        -webkit-transform: translateY(2px);
+        transform: translateY(2px);
+    }
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+@keyframes swing {
+    15% {
+        -webkit-transform: translateY(5px);
+        transform: translateY(5px);
+    }
+    30% {
+        -webkit-transform: translateY(-5px);
+        transform: translateY(-5px);
+    }
+    50% {
+        -webkit-transform: translateY(3px);
+        transform: translateY(3px);
+    }
+    65% {
+        -webkit-transform: translateY(-3px);
+        transform: translateY(-3px);
+    }
+    80% {
+        -webkit-transform: translateY(2px);
+        transform: translateY(2px);
+    }
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+.nav-link:hover
+{
+    -webkit-animation: swing 1s ease;
+    animation: swing 1s ease;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+}
